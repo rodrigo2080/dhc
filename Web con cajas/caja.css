@@ -1,0 +1,80 @@
+
+/*box sizing = border box, quita los margenes*/
+*{
+    box-sizing: border-box;
+}
+
+.ejemplo {
+    font-size: 20px;
+    background-color: antiquewhite;
+    width: 50%;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*overflow = scroll, genera un scroll dentro del cuadro*/
+    overflow: scroll;
+    float: left;
+}
+
+.ejemplo_2 {
+    font-size: 20px;
+    background-color: skyblue;
+    width: 50%;
+    height: 400px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    /*overflow = scroll, genera un scroll dentro del cuadro*/
+    overflow: scroll;
+    float: left;
+}
+
+.ejemplo_3 {
+    background-color: darkgoldenrod;
+    
+    /*obliga al cuadro span a estar dentro de la caja del div y no del navegador*/
+    position: relative;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+
+span {
+    background-color: coral;
+    padding: 10px;
+    float: right;
+    left: 0%;
+    top: 0%;
+    z-index: 1;
+}
+
+.alt {
+    background-color: chartreuse;
+    padding: 10px;
+    /*Fija la caja, averigúa donde?
+    position: absolute;
+    */
+    float: right;
+    float: inherit;
+    left 0%;
+    top: 0%;
+    z-index: 0;
+}
+
+
+}
+
+div {
+    display: block;
+    min-width: 200px;
+    margin: 20px 30px;
+    float: left;
+    overflow: hidden;
+}

@@ -1,0 +1,45 @@
+/*comentario*/
+
+body{
+    margin: 30px;
+}
+
+h1, h5{
+font-size: 24px;
+}
+
+.primero span{
+    color: aqua;
+    font-size: 35px;
+    text-decoration: line-through;
+}
+
+.vota {
+    color: beige;
+}
+
+.remarco strong {
+    color: mediumvioletred;
+    font-size: 1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: orange;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: orange;
+}
+
+a:focus{
+    background-color: lightgrey;
+}
